@@ -1,0 +1,51 @@
+@use "../abstracts/colors" as color;
+// Text color utility classes
+.text-white {
+    color: color.$white;
+}
+
+.text-light-gray {
+    color: color.$light-gray;
+}
+
+.text-grayish-blue {
+    color: color.$grayish-blue;
+}
+
+.text-dark-blue {
+    color: color.$dark-blue;
+}
+
+// Background color utility classes
+.bg-white {
+    background-color: color.$white;
+}
+
+.bg-light-gray {
+    background-color: color.$light-gray;
+}
+
+.bg-grayish-blue {
+    background-color: color.$grayish-blue;
+}
+
+.bg-dark-blue {
+    background-color: color.$dark-blue;
+}
+
+// Border color utility classes
+.border-white {
+    border-color: color.$white;
+}
+
+.border-light-gray {
+    border-color: color.$light-gray;
+}
+
+.border-grayish-blue {
+    border-color: color.$grayish-blue;
+}
+
+.border-dark-blue {
+    border-color: color.$dark-blue;
+}

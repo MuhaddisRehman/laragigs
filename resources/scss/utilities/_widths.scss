@@ -1,0 +1,51 @@
+// _widths.scss
+
+$width-base: 100px; // Adjust the base width value as needed
+
+// Width utility classes
+.w-0 {
+    width: 0;
+}
+
+.w-1 {
+    width: $width-base * 0.25;
+}
+
+.w-2 {
+    width: $width-base * 0.5;
+}
+
+.w-3 {
+    width: $width-base * 0.75;
+}
+
+.w-4 {
+    width: $width-base;
+}
+
+.w-5 {
+    width: $width-base * 1.25;
+}
+
+.w-6 {
+    width: $width-base * 1.5;
+}
+
+.w-7 {
+    width: $width-base * 1.75;
+}
+
+.w-8 {
+    width: $width-base * 2;
+}
+.w-9 {
+    width: $width-base * 2.25;
+}
+.w-10 {
+    width: $width-base * 3;
+}
+.w-100vw {
+    width: 100vh;
+}
+
+// Additional width utility classes can be added as needed

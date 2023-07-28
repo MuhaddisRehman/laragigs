@@ -1,0 +1,42 @@
+// _paddings.scss
+
+$padding-base: 8px; // Adjust the base padding value as needed
+
+// Padding utility classes
+.p-0 {
+    padding: 0;
+}
+
+.p-1 {
+    padding: $padding-base * 0.25;
+}
+
+.p-2 {
+    padding: $padding-base * 0.5;
+}
+
+.p-3 {
+    padding: $padding-base * 0.75;
+}
+
+.p-4 {
+    padding: $padding-base;
+}
+
+.p-5 {
+    padding: $padding-base * 1.25;
+}
+
+.p-6 {
+    padding: $padding-base * 1.5;
+}
+
+.p-7 {
+    padding: $padding-base * 1.75;
+}
+
+.p-8 {
+    padding: $padding-base * 2;
+}
+
+// Additional padding utility classes can be added as needed

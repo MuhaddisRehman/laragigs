@@ -1,0 +1,59 @@
+// _margins.scss
+
+$margin-base: 8px; // Adjust the base margin value as needed
+
+// Margin utility classes
+.m-0 {
+    margin: 0;
+}
+
+.m-1 {
+    margin: $margin-base * 0.25;
+}
+
+.m-2 {
+    margin: $margin-base * 0.5;
+}
+
+.m-3 {
+    margin: $margin-base * 0.75;
+}
+
+.m-4 {
+    margin: $margin-base;
+}
+
+.m-5 {
+    margin: $margin-base * 1.25;
+}
+
+.m-6 {
+    margin: $margin-base * 1.5;
+}
+
+.m-7 {
+    margin: $margin-base * 1.75;
+}
+
+.m-8 {
+    margin: $margin-base * 2;
+}
+
+// Negative margin utility classes
+.mt-n-1 {
+    margin-top: -$margin-base * 0.25;
+}
+
+.mr-n-1 {
+    margin-right: -$margin-base * 0.25;
+}
+
+.mb-n-1 {
+    margin-bottom: -$margin-base * 0.25;
+}
+
+.ml-n-1 {
+    margin-left: -$margin-base * 0.25;
+}
+
+// Additional margin utility classes can be added as needed

@@ -1,0 +1,44 @@
+// _heights.scss
+
+$height-base: 100px; // Adjust the base height value as needed
+
+// Height utility classes
+.h-0 {
+    height: 0;
+}
+
+.h-1 {
+    height: $height-base * 0.25;
+}
+
+.h-2 {
+    height: $height-base * 0.5;
+}
+
+.h-3 {
+    height: $height-base * 0.75;
+}
+
+.h-4 {
+    height: $height-base;
+}
+
+.h-5 {
+    height: $height-base * 1.25;
+}
+
+.h-6 {
+    height: $height-base * 1.5;
+}
+
+.h-7 {
+    height: $height-base * 1.75;
+}
+
+.h-8 {
+    height: $height-base * 2;
+}
+.h-100vh {
+    height: 100vh !important;
+}
+// Additional height utility classes can be added as needed

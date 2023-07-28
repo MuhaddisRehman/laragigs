@@ -1,0 +1,51 @@
+// _resets.scss
+
+// Normalize styles (optional - use if preferred over traditional CSS reset)
+@use "../abstracts/typography" as typography;
+
+// CSS Reset
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: typography.$font-family-outfit;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+img {
+    width: 100%;
+}
+
+/* Additional reset styles can be added as needed */
+
+// Global Styles
+
+// Additional global styles can be added here
